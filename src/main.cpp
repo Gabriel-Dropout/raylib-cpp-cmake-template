@@ -1,9 +1,7 @@
-#include "Functions.hpp"
-#include "Vector2.hpp"
 #include "raylib.h"
 #include "raylib-cpp.hpp"
 
-#include "atlas.h"
+#include "header.hpp"
 
 const int screenWidth = 640;
 const int screenHeight = 480;

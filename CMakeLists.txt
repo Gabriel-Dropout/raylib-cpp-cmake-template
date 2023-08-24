@@ -4,7 +4,7 @@ project(example)
 # Set project-wide version
 set(PROJECT_VERSION_MAJOR 1)
 set(PROJECT_VERSION_MINOR 0)
-set(PROJECT_VERSION_PATCH 0)
+set(PROJECT_VERSION_PATCH 1)
 set(PROJECT_VERSION "${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}")
 set(SOURCE_FILES
     src/main.cpp
@@ -58,4 +58,4 @@ target_include_directories(${PROJECT_NAME} PUBLIC "${raygui_SOURCE_DIR}/src")  #
 target_include_directories(${PROJECT_NAME} PUBLIC "${CMAKE_SOURCE_DIR}/include")
 
 # asset folder
-file(COPY assets DESTINATION .)
+file(COPY resources DESTINATION .)
